@@ -51,7 +51,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-                With my deire to never stop growing and my passion in tech, 
+                With my desire to never stop growing and my passion in tech, 
                 I am excited to see where my career takes me as I am always 
                 open to new opportunities. My email is {" "}
                 <span className="font-bold text-teal-500">
