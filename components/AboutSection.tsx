@@ -36,17 +36,15 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-                I am the Founder & Developer of ConklinOfficial, improving the lives of 380k+ 
-                soccer players with 1.5M monthly social media impressions and 90% five-star 
-                customer reviewal with 1-on-1 program. I am the Data Analyst Lead for Diversiy in 
-                Product and Data, and Re-Founder / Director of PR at UCLA REACH.
-
+                I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
+                soccer players with 1.5M monthly social media impressions. Recently I have gained web-scraping 
+                and user authentication experience from Software Engineer Internships at Bruinshack and Fork.
             </p>
             <br />
             <p>
-                I have a wide range of hobbies and passions that keep me busy.
-                From biking, playing soccer, traveling, eating spicy food, to 
-                playing soccer and making social media content, I am always seeking 
+                I have a wide range of hobbies and passions.
+                From traveling and playing soccer to eating spicy food and 
+                making social media content, I am always seeking 
                 new experiences and love to keep myself engaged and learning new things.
             </p>
             <br />
@@ -59,6 +57,16 @@ const AboutSection = () => {
                 </span>{" "}
                 if you have any questions!
             </p>
+            <br />
+            <p>
+              Click {" "}
+              <a href="https://www.linkedin.com/in/jordan-conklin/overlay/1635548262843/single-media-viewer/?profileId=ACoAACt5fyYBr-Y2-HWxm6awP89h0IIOozSOADo" 
+                  className="font-bold text-teal-500">
+                here
+              </a>{" "}
+              to view my resume.
+            </p>
+
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
