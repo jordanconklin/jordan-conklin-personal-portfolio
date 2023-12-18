@@ -3,16 +3,19 @@ import Image from "next/image"
 
 const skills = [
   { skill: "C++" },
+  { skill: "Python" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "SQL" },
+  { skill: "NextJS" },
+  { skill: "Beautiful Soup" },
+  { skill: "AWS" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "SQL" },
+  { skill: "DynamoDB" },
+  { skill: "MongoDB" },
+
 ]
 
 const AboutSection = () => {
@@ -32,7 +35,7 @@ const AboutSection = () => {
             <p>
                 {" "}
                 I am an undergrad UCLA student majoring in Cognitive Science 
-                with a Computing Specialization and minor in Data Science Engineering.
+                with a Computer Science Concentration and minor in Data Science Engineering.
             </p>
             <br />
             <p>
