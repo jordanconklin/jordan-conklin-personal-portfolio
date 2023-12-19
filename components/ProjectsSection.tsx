@@ -14,14 +14,14 @@ const projects = [
     link: "https://jordan-conklin-personal-portfolio.vercel.app",
   },
   {
-    name: "ConklinOfficial LP",
+    name: "ConklinOfficial Landing Page",
     description: "My personal brand landing page where customers can purchase merch and programs.",
     image: "/conklinofficial-LP-image.png",
     github: "https://github.com/jordanconklin/conklin-official",
     link: "https://conklin-official.netlify.app/index.html",
   },
   {
-    name: "TaskTrackr",
+    name: "TaskTrackr To-Do List App",
     description:
       "TaskTrackr is a todo list app built using React and JavaScript.",
     image: "/tasktrackr-image.png",
