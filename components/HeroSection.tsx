@@ -41,7 +41,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        <Link
+        {/* <Link
           to="about"
           activeClass="active"
           spy={true}
@@ -49,10 +49,14 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <span>
             <HiArrowDown size={35} className="animate-bounce" />
-          </span>
-        </Link>
+        </Link> */}
+        <a
+          href="#about" // Replace with the actual ID of your about section
+          className="cursor-pointer"
+        >
+          <HiArrowDown size={35} className="animate-bounce" />
+        </a>
       </div>
     </section>
   )
