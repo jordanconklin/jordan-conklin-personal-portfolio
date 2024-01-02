@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll/modules"
+import { Link } from "react-scroll"
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -41,7 +41,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
-        {/* <Link
+        <Link
           to="about"
           activeClass="active"
           spy={true}
@@ -50,13 +50,7 @@ const HeroSection = () => {
           duration={500}
         >
             <HiArrowDown size={35} className="animate-bounce" />
-        </Link> */}
-        <a
-          href="#about" // Replace with the actual ID of your about section
-          className="cursor-pointer"
-        >
-          <HiArrowDown size={35} className="animate-bounce" />
-        </a>
+        </Link>
       </div>
     </section>
   )
