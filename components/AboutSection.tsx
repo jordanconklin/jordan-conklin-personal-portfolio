@@ -40,13 +40,13 @@ const AboutSection = () => {
             <br />
             <p>
                 I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
-                soccer players with 1.5M monthly social media impressions. Recently I have gained web-scraping 
-                and user authentication experience from Software Engineer Internships at Bruinshack and Fork.
+                soccer players with 1.5M monthly social media impressions. Recently I have gained experience 
+                with webscraping, APIs, and databases through my internship at Fork.
             </p>
             <br />
             <p>
                 I have a wide range of hobbies and passions.
-                From traveling and playing soccer to eating spicy food and 
+                From traveling and playing soccer to 
                 making social media content, I am always seeking 
                 new experiences and love to keep myself engaged and learning new things.
             </p>
