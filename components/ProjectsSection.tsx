@@ -20,6 +20,14 @@ const projects = [
     github: "https://github.com/jordanconklin/conklin-official",
     link: "https://conklin-official.netlify.app/index.html",
   },
+  // {
+  //   name: "TCR: Equities Backtester & Data Visualization Project",
+  //   description:
+  //     "A collaborative project that uses Pandas and Python to evaluate trading strategies on historical stock market data.",
+  //   image: "/tasktrackr-image.png",
+  //   github: "",
+  //   link: "",
+  // },
   {
     name: "TaskTrackr To-Do List App",
     description:
@@ -28,6 +36,7 @@ const projects = [
     github: "https://github.com/jordanconklin/react-todo",
     link: "https://tasktrackr-react.vercel.app/",
   },
+  
 ]
 
 const ProjectsSection = () => {
