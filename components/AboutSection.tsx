@@ -62,11 +62,14 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Click {" "}
+              Feel free to checkout my {" "}
               <a href="/Jordan-Conklin-Resume-1.pdf" className="font-bold text-teal-500" download>
-                here
+                resume
               </a>
-              {" "} to view my resume.
+              {" "} or my social media platforms on {" "}
+              <a href="https://hoo.be/me" className="font-bold text-teal-500">
+                hoo.be
+              </a>
             </p>
 
           </div>
