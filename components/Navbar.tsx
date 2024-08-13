@@ -7,11 +7,13 @@ import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
 
+// when working with NavItem interface, NavItem objects in our nav_items array MUST contain a label and string
 interface NavItem {
   label: string
   page: string
 }
 
+// home, about, projects = NavItems in const array
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
@@ -26,6 +28,7 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
 ]
+
 
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme()
