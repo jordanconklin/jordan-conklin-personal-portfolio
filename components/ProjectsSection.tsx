@@ -29,6 +29,14 @@ const projects = [
   //   link: "",
   // },
   {
+    name: "RetroTune @LAHacks",
+    description:
+      "Hackathon project built with Python and Gemini API, curating a Spotify playlist based on one's Instagram feed",
+    image: "/retrotune.png",
+    github: "https://github.com/mayhong1/lahacks24/blame/RTjordan/lahacks24/lahacks24.py",
+    link: "https://www.youtube.com/watch?v=yuOEwQPndEE",
+  },
+  {
     name: "TaskTrackr To-Do List App",
     description:
       "TaskTrackr is a todo list app built using React and JavaScript.",
