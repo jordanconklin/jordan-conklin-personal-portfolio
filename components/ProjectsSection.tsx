@@ -17,8 +17,8 @@ const projects = [
     name: "TEKK AI Soccer App",
     description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
     image: "/tekkai-pic.png",
-    github: "https://github.com/jordanconklin/conklin-official",
-    link: "https://conklin-official.netlify.app/index.html",
+    github: "https://github.com/jordanconklin/Tekk-app",
+    link: "",
   },
   {
     name: "ConklinOfficial Landing Page",
