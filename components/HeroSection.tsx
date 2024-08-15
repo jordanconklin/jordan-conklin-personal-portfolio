@@ -22,9 +22,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m an aspiring{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer / Technical Marketer{" "}
+              Software Engineer{" "}
             </span>
-            based in Los Angeles, CA. I enjoy creating software that
+            based in Fremont, CA. I enjoy creating software that
             drives impact to large-scale audiences.
           </p>
           <Link

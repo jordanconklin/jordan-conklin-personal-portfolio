@@ -35,13 +35,14 @@ const AboutSection = () => {
             <p>
                 {" "}
                 I am an undergrad UCLA student majoring in Cognitive Science 
-                with a Computer Science Concentration and minor in Data Science Engineering.
+                (Computer Science + Psychology) and a minor in Data Science Engineering.
             </p>
             <br />
             <p>
                 I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
-                soccer players with 1.5M monthly social media impressions. Recently I have gained experience 
-                with webscraping, APIs, and databases through my internship at Fork.
+                soccer players with 1.5M monthly social media impressions. I'm currently building Tekk, an AI-driven 
+                soccer training app to help players improve their technique, which utilizes Python, SwiftUI, 
+                Langchain, and Nvidia NIMs.
             </p>
             <br />
             <p>
@@ -67,7 +68,7 @@ const AboutSection = () => {
                 resume
               </a>
               {" "} or my social media platforms on {" "}
-              <a href="https://hoo.be/me" className="font-bold text-teal-500">
+              <a href="https://hoo.be/conklinofficial" className="font-bold text-teal-500">
                 hoo.be
               </a>
             </p>
