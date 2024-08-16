@@ -53,24 +53,18 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-                With my desire to never stop growing and my passion in tech, 
-                I am excited to see where my career takes me as I am always 
-                open to new opportunities. My email is {" "}
-                <span className="font-bold text-teal-500">
-                  jordinho@g.ucla.edu 
-                </span>{" "}
-                if you have any questions!
-            </p>
-            <br />
-            <p>
               Feel free to checkout my {" "}
-              <a href="/Jordan-Conklin-Resume-1.pdf" className="font-bold text-teal-500" download>
+              <a href="/Jordan-Conklin-Software-Engineer-Resume.pdf" className="font-bold text-teal-500" download>
                 resume
               </a>
               {" "} or my social media platforms on {" "}
               <a href="https://hoo.be/conklinofficial" className="font-bold text-teal-500">
                 hoo.be
-              </a>
+              </a>. My email is {" "}
+                <span className="font-bold text-teal-500">
+                  jordinho@g.ucla.edu 
+                </span>{" "}
+                if you have any questions!
             </p>
 
           </div>
