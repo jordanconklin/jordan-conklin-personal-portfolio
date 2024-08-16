@@ -18,7 +18,7 @@ const projects = [
     description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
     image: "/tekkai-pic.png",
     github: "https://github.com/jordanconklin/Tekk-app",
-    link: "",
+    link: "https://github.com/jordanconklin/Tekk-app",
   },
   {
     name: "ConklinOfficial Landing Page",

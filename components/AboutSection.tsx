@@ -40,7 +40,7 @@ const AboutSection = () => {
             <br />
             <p>
                 I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
-                soccer players with 1.5M monthly social media impressions. I'm currently building Tekk, an AI-driven 
+                soccer players with 1.5M monthly social media impressions. I am currently building Tekk, an AI-driven 
                 soccer training app to help players improve their technique, which utilizes Python, SwiftUI, 
                 Langchain, and Nvidia NIMs.
             </p>
