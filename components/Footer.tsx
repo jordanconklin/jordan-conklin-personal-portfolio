@@ -31,7 +31,7 @@ const Footer = () => {
             />
           </a>
           <a
-            href="https://hoo.be/me"
+            href="https://hoo.be/conklinofficial"
             rel="noreferrer"
             target="_blank"
           >

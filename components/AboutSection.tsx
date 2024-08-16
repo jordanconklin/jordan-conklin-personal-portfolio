@@ -35,13 +35,14 @@ const AboutSection = () => {
             <p>
                 {" "}
                 I am an undergrad UCLA student majoring in Cognitive Science 
-                with a Computer Science Concentration and minor in Data Science Engineering.
+                (Computer Science + Psychology) and a minor in Data Science Engineering.
             </p>
             <br />
             <p>
                 I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
-                soccer players with 1.5M monthly social media impressions. Recently I have gained experience 
-                with webscraping, APIs, and databases through my internship at Fork.
+                soccer players with 1.5M monthly social media impressions. I am currently building Tekk, an AI-driven 
+                soccer training app to help players improve their technique, which utilizes Python, SwiftUI, 
+                Langchain, and Nvidia NIMs.
             </p>
             <br />
             <p>
@@ -52,24 +53,18 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-                With my desire to never stop growing and my passion in tech, 
-                I am excited to see where my career takes me as I am always 
-                open to new opportunities. My email is {" "}
+              Feel free to checkout my {" "}
+              <a href="/Jordan-Conklin-Software-Engineer-Resume.pdf" className="font-bold text-teal-500" download>
+                resume
+              </a>
+              {" "} or my social media platforms on {" "}
+              <a href="https://hoo.be/conklinofficial" className="font-bold text-teal-500">
+                hoo.be
+              </a>. My email is {" "}
                 <span className="font-bold text-teal-500">
                   jordinho@g.ucla.edu 
                 </span>{" "}
                 if you have any questions!
-            </p>
-            <br />
-            <p>
-              Feel free to checkout my {" "}
-              <a href="/Jordan-Conklin-Resume-1.pdf" className="font-bold text-teal-500" download>
-                resume
-              </a>
-              {" "} or my social media platforms on {" "}
-              <a href="https://hoo.be/me" className="font-bold text-teal-500">
-                hoo.be
-              </a>
             </p>
 
           </div>

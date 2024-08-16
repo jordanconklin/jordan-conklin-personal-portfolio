@@ -8,14 +8,21 @@ const projects = [
   {
     name: "Personal Portfolio Website",
     description:
-      "My portfolio built with Tailwind CSS and React.",
+      "My personal portfolio for showcasing my projects and other info. Uses Tailwind CSS and React.",
     image: "/portfolio-website-image.png",
     github: "https://github.com/jordanconklin/personal-portfolio",
     link: "https://jordan-conklin-personal-portfolio.vercel.app",
   },
   {
+    name: "TEKK AI Soccer App",
+    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
+    image: "/tekkai-pic.png",
+    github: "https://github.com/jordanconklin/Tekk-app",
+    link: "https://github.com/jordanconklin/Tekk-app",
+  },
+  {
     name: "ConklinOfficial Landing Page",
-    description: "My personal brand landing page where customers can purchase merch and programs.",
+    description: "My personal brand landing page where customers can purchase merch and programs. Uses HTML/CSS and Javascript",
     image: "/conklinofficial-LP-image.png",
     github: "https://github.com/jordanconklin/conklin-official",
     link: "https://conklin-official.netlify.app/index.html",
@@ -29,9 +36,9 @@ const projects = [
   //   link: "",
   // },
   {
-    name: "RetroTune @LAHacks",
+    name: "RetroTune @LAHacks 2024",
     description:
-      "Hackathon project built with Python and Gemini API, curating a Spotify playlist based on one's Instagram feed",
+      "Hackathon project that curates a Spotify playlist based on one's Instagram feed. Uses Reflex.py and Gemini API",
     image: "/retrotune.png",
     github: "https://github.com/mayhong1/lahacks24/blame/RTjordan/lahacks24/lahacks24.py",
     link: "https://www.youtube.com/watch?v=yuOEwQPndEE",
@@ -39,7 +46,7 @@ const projects = [
   {
     name: "TaskTrackr To-Do List App",
     description:
-      "TaskTrackr is a todo list app built using React and JavaScript.",
+      "A simple todo list app to organize your day. Uses React and JavaScript.",
     image: "/tasktrackr-image.png",
     github: "https://github.com/jordanconklin/react-todo",
     link: "https://tasktrackr-react.vercel.app/",
