@@ -6,26 +6,18 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Personal Portfolio Website",
-    description:
-      "My personal portfolio for showcasing my projects and other info. Uses Tailwind CSS and React.",
-    image: "/portfolio-website-image.png",
-    github: "https://github.com/jordanconklin/personal-portfolio",
-    link: "https://jordan-conklin-personal-portfolio.vercel.app",
-  },
-  {
     name: "TEKK AI Soccer App",
     description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
     image: "/tekkai-pic.png",
-    github: "https://github.com/jordanconklin/conklinofficial-landing-page",
-    link: "https://conklinofficial-landing-page.vercel.app/",
+    github: "https://github.com/jordanconklin/Tekk-app",
+    link: "https://github.com/jordanconklin/Tekk-app",
   },
   {
     name: "ConklinOfficial Landing Page",
     description: "My personal brand landing page where customers can purchase merch and programs. Uses HTML/CSS and Javascript",
     image: "/conklinofficial-LP-image.png",
-    github: "https://github.com/jordanconklin/conklin-official",
-    link: "https://conklin-official.netlify.app/index.html",
+    github: "https://github.com/jordanconklin/conklinofficial-landing-page",
+    link: "https://conklinofficial-landing-page.vercel.app/",
   },
   // {
   //   name: "TCR: Equities Backtester & Data Visualization Project",
@@ -42,6 +34,14 @@ const projects = [
     image: "/retrotune.png",
     github: "https://github.com/mayhong1/lahacks24/blame/RTjordan/lahacks24/lahacks24.py",
     link: "https://www.youtube.com/watch?v=yuOEwQPndEE",
+  },
+  {
+    name: "Personal Portfolio Website",
+    description:
+      "My personal portfolio for showcasing my projects and other info. Uses Tailwind CSS and React.",
+    image: "/portfolio-website-image.png",
+    github: "https://github.com/jordanconklin/personal-portfolio",
+    link: "https://jordan-conklin-personal-portfolio.vercel.app",
   },
   {
     name: "TaskTrackr To-Do List App",
