@@ -7,7 +7,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 const projects = [
   {
     name: "ConklinOfficial - Personal Brand Landing Page",
-    description: "My personal brand landing page where customers can purchase merch and programs. Uses HTML/CSS and Javascript",
+    description: "My personal brand landing page where customers can purchase merch and programs. Uses Spring, React, Typescript",
     image: "/conklinofficial-LP-image.png",
     github: "https://github.com/jordanconklin/conklinofficial-landing-page",
     link: "https://conklinofficial-landing-page.vercel.app/",
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     name: "TEKK - AI Soccer Coaching App",
-    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
+    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, JWT Auth, and Langchain",
     image: "/tekkai-pic.png",
     github: "https://github.com/jordanconklin/Tekk-app",
     link: "",
