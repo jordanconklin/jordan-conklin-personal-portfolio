@@ -6,18 +6,25 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "TEKK AI Soccer App",
-    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
-    image: "/tekkai-pic.png",
-    github: "https://github.com/jordanconklin/Tekk-app",
-    link: "https://github.com/jordanconklin/Tekk-app",
-  },
-  {
-    name: "ConklinOfficial Landing Page",
+    name: "ConklinOfficial - Personal Brand Landing Page",
     description: "My personal brand landing page where customers can purchase merch and programs. Uses HTML/CSS and Javascript",
     image: "/conklinofficial-LP-image.png",
     github: "https://github.com/jordanconklin/conklinofficial-landing-page",
     link: "https://conklinofficial-landing-page.vercel.app/",
+  },
+  {
+    name: "Fork - AI Nutrition App",
+    description: "Founding engineer of nutrition app that uses AI to help you eat healthier. Uses Python, Swift, and Firebase",
+    image: "/fork-image.png",
+    github: "",
+    link: "https://apps.apple.com/us/app/fork-your-eating-companion/id6499236437",
+  },
+  {
+    name: "TEKK - AI Soccer Coaching App",
+    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, NVIDIA NIM infra, and Langchain",
+    image: "/tekkai-pic.png",
+    github: "https://github.com/jordanconklin/Tekk-app",
+    link: "",
   },
   // {
   //   name: "TCR: Equities Backtester & Data Visualization Project",
@@ -28,7 +35,7 @@ const projects = [
   //   link: "",
   // },
   {
-    name: "RetroTune @LAHacks 2024",
+    name: "RetroTune - Spotify Playlist Generator, LA Hacks 2024",
     description:
       "Hackathon project that curates a Spotify playlist based on one's Instagram feed. Uses Reflex.py and Gemini API",
     image: "/retrotune.png",
@@ -44,7 +51,7 @@ const projects = [
     link: "https://jordan-conklin-personal-portfolio.vercel.app",
   },
   {
-    name: "TaskTrackr To-Do List App",
+    name: "TaskTrackr - To-Do List App",
     description:
       "A simple todo list app to organize your day. Uses React and JavaScript.",
     image: "/tasktrackr-image.png",
