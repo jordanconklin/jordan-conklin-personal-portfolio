@@ -20,9 +20,9 @@ const projects = [
     link: "https://apps.apple.com/us/app/fork-your-eating-companion/id6499236437",
   },
   {
-    name: "TEKK - AI Soccer Coaching App",
-    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, SwiftUI, JWT Auth, and Langchain",
-    image: "/tekkai-pic.png",
+    name: "BravoBall - AI Soccer Coaching App",
+    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, Swift, and PostgreSQL",
+    image: "/bravoball-image.png",
     github: "https://github.com/jordanconklin/Tekk-app",
     link: "",
   },
