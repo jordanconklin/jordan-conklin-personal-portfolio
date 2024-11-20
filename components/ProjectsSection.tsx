@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: "Fork - AI Nutrition App",
-    description: "Founding engineer of nutrition app that uses AI to help you eat healthier. Uses Python, Swift, and Firebase",
+    description: "Backend Engineer of a nutrition app that uses AI to help you eat healthier. Uses Python, Swift, and Firebase",
     image: "/fork-image.png",
     github: "",
     link: "https://apps.apple.com/us/app/fork-your-eating-companion/id6499236437",
