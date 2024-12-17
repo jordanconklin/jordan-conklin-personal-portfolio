@@ -26,7 +26,7 @@ const projects = [
     github: "https://github.com/jordanconklin/Tekk-app",
     link: "",
   },
-  // {
+    // {
   //   name: "TCR: Equities Backtester & Data Visualization Project",
   //   description:
   //     "A collaborative project that uses Pandas and Python to evaluate trading strategies on historical stock market data.",
