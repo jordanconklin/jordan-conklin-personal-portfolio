@@ -82,6 +82,16 @@ export default function Navbar() {
                   </Link>
                 )
               })}
+
+              {/* Resume Download Button */}
+              <a
+                href="/Jordan-Conklin-Software-Engineer-Resume.pdf"
+                download
+                className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-xl transition-colors duration-300"
+              >
+                Resume
+              </a>
+              
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}

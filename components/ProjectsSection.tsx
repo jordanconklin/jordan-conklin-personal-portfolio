@@ -26,7 +26,7 @@ const projects = [
     github: "https://github.com/jordanconklin/Tekk-app",
     link: "",
   },
-  // {
+    // {
   //   name: "TCR: Equities Backtester & Data Visualization Project",
   //   description:
   //     "A collaborative project that uses Pandas and Python to evaluate trading strategies on historical stock market data.",
@@ -49,14 +49,6 @@ const projects = [
     image: "/portfolio-website-image.png",
     github: "https://github.com/jordanconklin/personal-portfolio",
     link: "https://jordan-conklin-personal-portfolio.vercel.app",
-  },
-  {
-    name: "TaskTrackr - To-Do List App",
-    description:
-      "A simple todo list app to organize your day. Uses React and JavaScript.",
-    image: "/tasktrackr-image.png",
-    github: "https://github.com/jordanconklin/react-todo",
-    link: "https://tasktrackr-react.vercel.app/",
   },
   
 ]
