@@ -6,11 +6,18 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "ConklinOfficial - Personal Brand Landing Page",
-    description: "My personal brand landing page where customers can purchase merch and programs. Uses Spring, React, Typescript",
-    image: "/conklinofficial-LP-image.png",
-    github: "https://github.com/jordanconklin/conklinofficial-landing-page",
-    link: "https://conklinofficial-landing-page.vercel.app/",
+    name: "BravoBall - AI Soccer Coaching App",
+    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, Swift, and PostgreSQL",
+    image: "/bravoball-image.png",
+    github: "https://github.com/jordanconklin/Tekk-app",
+    link: "",
+  },
+  {
+    name: "BravoBall - Landing Page",
+    description: "Landing page for my BravoBall app for user acquisition and product information. Uses Typescript, React.js, Node.js, Next.js, and Supabase",
+    image: "/bravoballLanding.png",
+    github: "https://github.com/jordanconklin/bravoball-landing",
+    link: "https://bravoball.vercel.app/",
   },
   {
     name: "Fork - AI Nutrition App",
@@ -20,11 +27,11 @@ const projects = [
     link: "https://apps.apple.com/us/app/fork-your-eating-companion/id6499236437",
   },
   {
-    name: "BravoBall - AI Soccer Coaching App",
-    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, Swift, and PostgreSQL",
-    image: "/bravoball-image.png",
-    github: "https://github.com/jordanconklin/Tekk-app",
-    link: "",
+    name: "ConklinOfficial - Personal Brand Landing Page",
+    description: "My personal brand landing page where customers can purchase merch and programs. Uses Spring, React, Typescript",
+    image: "/conklinofficial-LP-image.png",
+    github: "https://github.com/jordanconklin/conklinofficial-landing-page",
+    link: "https://conklinofficial-landing-page.vercel.app/",
   },
     // {
   //   name: "TCR: Equities Backtester & Data Visualization Project",
@@ -42,15 +49,6 @@ const projects = [
     github: "https://github.com/mayhong1/lahacks24/blame/RTjordan/lahacks24/lahacks24.py",
     link: "https://www.youtube.com/watch?v=yuOEwQPndEE",
   },
-  {
-    name: "Personal Portfolio Website",
-    description:
-      "My personal portfolio for showcasing my projects and other info. Uses Tailwind CSS and React.",
-    image: "/portfolio-website-image.png",
-    github: "https://github.com/jordanconklin/personal-portfolio",
-    link: "https://jordan-conklin-personal-portfolio.vercel.app",
-  },
-  
 ]
 
 const ProjectsSection = () => {
