@@ -7,10 +7,10 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 const projects = [
   {
     name: "BravoBall - AI Soccer Coaching App",
-    description: "Building an AI-driven soccer training app to help players improve their technique. Uses Python, Swift, and PostgreSQL",
+    description: "Building an AI-driven soccer training app to help players improve their technique. With over 6,000 downloads, the app uses Python, Swift, and PostgreSQL",
     image: "/bravoball-image.png",
     github: "https://github.com/jordanconklin/Tekk-app",
-    link: "",
+    link: "https://apps.apple.com/us/app/bravoball/id6746950846",
   },
   {
     name: "BravoBall - Landing Page",
@@ -24,7 +24,7 @@ const projects = [
     description: "Backend Engineer of a nutrition app that uses AI to help you eat healthier. Uses Python, Swift, and Firebase",
     image: "/fork-image.png",
     github: "",
-    link: "https://apps.apple.com/us/app/fork-your-eating-companion/id6499236437",
+    link: "",
   },
   {
     name: "ConklinOfficial - Personal Brand Landing Page",
@@ -66,15 +66,27 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    {project.link ? (
+                      <Link href={project.link}>
+                        <Image
+                          src={project.image}
+                          alt={project.name}
+                          width={600}
+                          height={400}
+                          className="rounded-xl shadow-xl hover:opacity-70"
+                          priority={idx < 2}
+                        />
+                      </Link>
+                    ) : (
                       <Image
                         src={project.image}
-                        alt=""
-                        width={1000}
-                        height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
+                        alt={project.name}
+                        width={600}
+                        height={400}
+                        className="rounded-xl shadow-xl"
+                        priority={idx < 2}
                       />
-                    </Link>
+                    )}
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
@@ -82,18 +94,22 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-                      <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
+                      {project.github && (
+                        <Link href={project.github} target="_blank">
+                          <BsGithub
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      )}
+                      {project.link && (
+                        <Link href={project.link} target="_blank">
+                          <BsArrowUpRightSquare
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
