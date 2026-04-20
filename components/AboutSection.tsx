@@ -3,26 +3,28 @@ import Image from "next/image"
 
 const skills = [
   { skill: "Python" },
-  { skill: "Swift" },
   { skill: "Typescript" },
-  { skill: "Postgres" },
   { skill: "Java" },
-  { skill: "Spring Boot" },
-  { skill: "Firebase" },
+  { skill: "Dart" },
+  { skill: "SQL" },
+  { skill: "Swift" },
   { skill: "C++" },
+  { skill: "Go" },
+  { skill: "FastAPI" },
   { skill: "React" },
   { skill: "NextJS" },
-  { skill: "Tailwind" },
-  { skill: "Pandas" },
-  { skill: "Numpy" },
-  { skill: "Scikit-Learn" },
-  { skill: "Langchain" },
-  { skill: "JavaScript" },
-  { skill: "Beautiful Soup" },
+  { skill: "Spring Boot" },
   { skill: "AWS" },
-  { skill: "Git" },
-  { skill: "SQL" },
-  { skill: "MongoDB" },
+  { skill: "Docker" },
+  { skill: "Render" },
+  { skill: "Postgres" },
+  { skill: "Firebase" },
+  { skill: "GitHub Actions" },
+  { skill: "S3" },
+  { skill: "AI Agents" },
+  { skill: "Product Management" },
+  { skill: "Data Modeling" },
+  { skill: "Microservices" },
 ]
 
 const AboutSection = () => {
@@ -41,22 +43,34 @@ const AboutSection = () => {
             </h1>
             <p>
                 {" "}
-                I am an undergrad UCLA student majoring in Cognitive Science 
-                (Computer Science + Psychology) and a minor in Data Science Engineering.
+                I graduated from <span className="font-bold text-teal-500">UCLA</span> in 2024 
+                with a B.S. in Cognitive Science, focused on computer science and psychology, 
+                and a minor in Data Science Engineering. I build products at the intersection 
+                of AI, mobile apps, and consumer behavior.
             </p>
             <br />
             <p>
-                I am the Founder & Software Engineer of ConklinOfficial, improving the lives of 400k+ 
-                soccer players with 1.5M monthly social media impressions. I am currently building Tekk, an AI-driven 
-                soccer training app to help players improve their technique, which utilizes Python, SwiftUI, 
-                Langchain, and Nvidia NIMs.
+                My main project is <span className="font-bold text-teal-500">BravoBall</span>, 
+                an AI-powered soccer training app I founded and engineered across iOS, Android, 
+                and backend systems. The app has reached{" "}
+                <span className="font-bold text-teal-500">9,000+ downloads</span>, a{" "}
+                <span className="font-bold text-teal-500">4.8-star rating</span>, and{" "}
+                <span className="font-bold text-teal-500">3,600+ completed training sessions</span>. 
+                The product is built with Flutter, Dart, Python, FastAPI, Postgres, Firebase, 
+                Docker, and Render.
             </p>
             <br />
             <p>
-                I have a wide range of hobbies and passions.
-                From traveling and playing soccer to 
-                making social media content, I am always seeking 
-                new experiences and love to keep myself engaged and learning new things.
+                I am also a former{" "}
+                <span className="font-bold text-teal-500">
+                  Software Development Engineer at Amazon
+                </span>, where I built workflow components for LLM-driven ranking-quality tooling, 
+                AWS Lambda and SQS pipelines, and a React interface for non-technical product teams. 
+                Right now, I am focused on making{" "}
+                <span className="font-bold text-teal-500">BravoBall</span> more reliable in 
+                production, improving notifications and backend security, and exploring ML tooling 
+                for soccer clip analysis. Outside of engineering roles, I run ConklinOfficial, a 
+                soccer brand with <span className="font-bold text-teal-500">400k followers</span>.
             </p>
             <br />
             <p>
@@ -69,7 +83,7 @@ const AboutSection = () => {
                 hoo.be
               </a>. My email is {" "}
                 <span className="font-bold text-teal-500">
-                  jordinho@g.ucla.edu 
+                  jordan@conklinofficial.com
                 </span>{" "}
                 if you have any questions!
             </p>
