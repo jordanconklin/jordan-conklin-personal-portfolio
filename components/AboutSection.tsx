@@ -43,7 +43,7 @@ const AboutSection = () => {
             </h1>
             <p>
                 {" "}
-                I graduated from <span className="font-bold text-teal-500">UCLA</span> in 2024 
+                I graduated from <span className="font-bold text-teal-500">UCLA</span> 
                 with a B.S. in Cognitive Science, focused on computer science and psychology, 
                 and a minor in Data Science Engineering. I build products at the intersection 
                 of AI, mobile apps, and consumer behavior.
