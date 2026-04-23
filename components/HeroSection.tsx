@@ -2,6 +2,11 @@
 import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll"
+import {
+  AiOutlineFileText,
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai"
 
 const HeroSection = () => {
   return (
@@ -18,7 +23,7 @@ const HeroSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Jordan!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+          <p className="text-lg mt-6 mb-8 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
               software engineer and founder{" "}
@@ -41,12 +46,31 @@ const HeroSection = () => {
               View BravoBall
             </Link>
             <a
-              href="https://apps.apple.com/us/app/bravoball/id6746950846"
+              href="https://github.com/jordanconklin"
               target="_blank"
               rel="noreferrer"
-              className="font-semibold px-6 py-3 border border-teal-600 text-teal-700 rounded shadow hover:bg-teal-50 dark:text-teal-400 dark:hover:bg-teal-950"
+              aria-label="GitHub"
+              className="flex h-12 w-12 items-center justify-center rounded border border-teal-600 text-teal-700 shadow transition-colors hover:bg-teal-50 dark:text-teal-400 dark:hover:bg-teal-950"
             >
-              Download BravoBall
+              <AiOutlineGithub size={28} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jordan-conklin/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              className="flex h-12 w-12 items-center justify-center rounded border border-teal-600 text-teal-700 shadow transition-colors hover:bg-teal-50 dark:text-teal-400 dark:hover:bg-teal-950"
+            >
+              <AiOutlineLinkedin size={28} />
+            </a>
+            <a
+              href="/Jordan-Conklin-Software-Engineer-Resume.pdf"
+              download
+              aria-label="Download resume"
+              className="flex h-12 items-center gap-2 rounded border border-teal-600 px-4 font-semibold text-teal-700 shadow transition-colors hover:bg-teal-50 dark:text-teal-400 dark:hover:bg-teal-950"
+            >
+              <AiOutlineFileText size={24} />
+              Resume
             </a>
           </div>
         </div>
